@@ -6,7 +6,11 @@ import { Component, OnInit, Input } from "@angular/core";
     styleUrls: ["./call-for-proposals.component.scss"]
 })
 export class CallForProposalsComponent implements OnInit {
-    constructor() {}
+    public limit: Date;
+
+    constructor() {
+        this.limit = new Date(2019, 7, 2, 23, 59, 0);
+    }
 
     ngOnInit() {}
 }

@@ -50,6 +50,12 @@
             width: 60%;
         }
     }
+
+}
+
+.mobileTitle,
+.mobileSubtitle {
+    display: none;
 }
 
 @media screen and (max-width: 1288px) {
@@ -80,19 +86,36 @@
 @media screen and (max-width: 720px) {
     .section-mapa-component {
         .area {
+            display: none;
             .box {
                 font-size: .8em;
                 width: 100%;
             }
         }
     }
+
+    .mobileTitle {
+        display: block;
+        font-size: em(18, 14);
+        text-align: center;
+        .icon {
+            font-size: em(24, 14);
+        }
+    }
+
+    .mobileSubtitle {
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+        color: #666;
+    }
 }
 
 @media screen and (max-width: 360px) {
     .section-mapa-component {
         height: 40vh;
-
         .area {
+            display: none;
             .box {
                 font-size: .6em;
             }
@@ -100,3 +123,6 @@
     }
 }
 
+.area.row {
+    margin-left: 1vw;
+}
