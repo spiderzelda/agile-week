@@ -1,7 +1,7 @@
 @import '../../../scss/imports';
 
 .call-for-proposals-component {
-    background-color: $atlantis;
+    background-color: $royal-blue;
     min-height: 20vh;
     display: flex;
     flex-direction: column;
@@ -12,24 +12,25 @@
 
     &--question {
         text-align: center;
-        font-family: Lato;
-        font-size: em(22, 14);
-        font-weight: 900;
+        font-family: 'Covered By Your Grace';
+        font-size: 50px;
+        font-weight: 200;
         font-style: normal;
         font-stretch: normal;
         line-height: 1.11;
         letter-spacing: normal;
+        margin:30px 20px 0 20px;
     }
 
     &--link {
-        font-family: Lato;
+        font-family: Raleway;
         display: inline-block;
-        background-color: $gun-powder;
+        background-color: $coral-blue;
         text-align: center;
         font-size: em(17, 14);
-        padding: 6px 45px;
+        padding: 12px 45px;
         border-radius: 5px;
-        margin-top: 1em;
+        margin: 30px 0;
         &,
         &:active,
         &:focus,
