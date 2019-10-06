@@ -5,12 +5,8 @@
     @extend %flex-center-center;
     //background-image: url(./../../../assets/img/mapa.jpg);
     height: 65vh;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.95);
     @media screen and (max-width: 730px) {
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     .area {
         width: 95%;
@@ -24,7 +20,7 @@
             h4 {
                 @extend %flex-center-left;
                 //margin: 0 0 1em;
-                color: $gun-powder;
+                color: $royal-blue;
                 font: {
                     size: 36px;
                     weight: 900;
@@ -33,7 +29,7 @@
 
             p {
                 @extend %flex-center-left;
-                color: $gun-powder;
+                color: $royal-blue;
                 font: {
                     size: 24px;
                     weight: normal;
@@ -52,6 +48,45 @@
     }
 }
 
+.jw-map {
+    &__header {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: $royal-blue;
+        background-position: center center;
+        background-size: cover;
+        font-family: $grace;
+        color:$kiwi;
+        text-transform: uppercase;
+        padding: 20px 0;
+        & i{
+            margin:0 10px;
+            font-size: 50px;
+            @media screen and (max-width: 500px) {
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width: 730px) {
+            height: 100px;
+            flex-direction: row;
+            padding: 0 26px;
+            justify-content: center;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.1;
+            @media screen and (max-width: 730px) {
+                font-size: 24px;
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1288px) {
     .section-mapa-component {
         .area {
@@ -65,7 +100,7 @@
 
 @media screen and (max-width: 1024px) {
     .section-mapa-component {
-        height: 45vh;
+        height: 65vh;
 
         .area {
             .box {
@@ -84,6 +119,7 @@
             .box {
                 font-size: 0.8em;
                 width: 100%;
+                margin-top:30px;
             }
         }
     }
@@ -91,9 +127,8 @@
 
 @media screen and (max-width: 360px) {
     .section-mapa-component {
-        height: 40vh;
-
         .area {
+            max-width: 100%;
             .box {
                 font-size: 0.6em;
             }

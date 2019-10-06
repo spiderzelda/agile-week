@@ -2,7 +2,6 @@
 
 .jw-schedule {
     &__header {
-        // height: 373px;
         text-align: center;
         display: flex;
         flex-direction: row;
@@ -74,7 +73,7 @@
             }
             &[aria-selected='true'] {
                 @media screen and (max-width: 730px) {
-                    background: $sushi;
+                    background: $clear-blue;
                 }
                 &:after {
                     content: '';
