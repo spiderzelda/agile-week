@@ -1,3 +1,5 @@
+@import '../../../../scss/imports';
+
 .jw-speaker {
     width: 374px;
     max-width: 100%;
@@ -9,11 +11,14 @@
     margin: 10px;
     display: flex;
     flex-direction: row;
+    color: $royal-blue;
+    border-radius: 8px;
 
     &__picture {
         object-fit: cover;
         width: 160px;
         height: 160px;
+        border-radius: 80px;
     }
     &-info {
         display: flex;
@@ -25,6 +30,7 @@
         margin-bottom: 0;
         font-size: 24px;
         line-height: 1.1;
+        font-family: "covered by your grace"
     }
     &__bio {
         font-size: 14px;

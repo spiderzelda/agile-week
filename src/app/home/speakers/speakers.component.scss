@@ -1,7 +1,7 @@
 @import '../../../scss/imports';
 
 .jw-speakers {
-    padding: 100px 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,9 +13,17 @@
     &__title {
         margin: 0;
         padding-bottom: 53px;
+        font-family: "covered by your grace";
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        color: $coral-blue;
         @media screen and (max-width: 730px) {
             font-size: 24px;
-            align-self: flex-start;
+            align-self: center;
+        }
+        & i{
+            font-size: 50px;
         }
     }
     &__grid {
