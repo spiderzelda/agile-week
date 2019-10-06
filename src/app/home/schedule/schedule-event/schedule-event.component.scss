@@ -8,7 +8,10 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    font-family: Raleway;
     &__date {
+        font-size: 24px;
+        font-weight: 600;
         @media screen and (max-width: 730px) {
             font-size: 16px;
         }
@@ -17,6 +20,7 @@
         width: 473px;
         max-width: 82%;
         margin-left: 10px;
+        color: $royal-blue;
         h3 {
             font-size: 36px;
             margin: 0;
@@ -33,4 +37,10 @@
             }
         }
     }
+    &__break{
+        font-family: $grace;
+        color: $silver;
+    }
 }
+
+

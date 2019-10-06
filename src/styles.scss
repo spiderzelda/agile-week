@@ -32,10 +32,17 @@ body {
     color: $gun-powder;
 }
 
+.c-coral{
+    color: $coral-blue;
+}
+
+.c-royal{
+    color: $royal-blue;
+}
+
 .c-silver {
     color: $silver;
 }
-
 .app-loading {
     @extend %flex-center-center;
     width: 100vw;

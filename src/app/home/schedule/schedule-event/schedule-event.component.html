@@ -1,6 +1,6 @@
 <div class="jw-schedule-event">
     <time
-        class="jw-schedule-event__date heading-lg c-sushi"
+        class="jw-schedule-event__date heading-lg c-coral"
         [class.c-silver]="event.type === 'break'"
         appLocalize
     >
@@ -8,14 +8,13 @@
     </time>
     <div class="jw-schedule-event__info">
         <h3
-            class="c-gun-powder"
-            [ngClass]="{ 'c-silver heading-lg': event.type === 'break' }"
+            [ngClass]="{ 'jw-schedule-event__break': event.type === 'break' }"
             appLocalize
         >
             {{ event.title }}
         </h3>
-        <h4 class="c-gun-powder" *ngIf="event.subtitle">
+        <p class="jw-schedule-event__info__subtitle" *ngIf="event.subtitle">
             {{ event.subtitle }}
-        </h4>
+        </p>
     </div>
 </div>
