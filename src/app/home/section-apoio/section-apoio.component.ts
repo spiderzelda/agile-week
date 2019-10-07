@@ -8,49 +8,37 @@ import { Component, OnInit } from '@angular/core';
 export class SectionApoioComponent implements OnInit {
     public voluntarios = [
         {
-            name: 'Jhonatan Giraldo',
-            picture: '/assets/img/jhonatan-giraldo.png',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Ana Sosa',
-            picture: '/assets/img/anaSosa.png',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Andrea Cordoba',
-            picture: '/assets/img/andrea-cordoba.jpg',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Jorge Morales',
-            picture: '/assets/img/jorgeMorales.jpg',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Gabriel Trujillo',
-            picture: '/assets/img/gabriel.jpg',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Jeyson Molina',
-            picture: '/assets/img/jeyson.jpg',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Oscar Granada',
-            picture: '/assets/img/oscarGranada.png',
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
         },
         {
-            name: 'Nathaly Mesa',
-            picture: '/assets/img/nathaly.jpg',
-        },
-        {
-            name: 'Juanita Ramirez',
-            picture: '/assets/img/Juanita.jpg',
-        },
-        {
-            name: 'Paula Mazo',
-            picture: '/assets/img/Mazo.png',
-        },
-        {
-            name: 'Dilan Hoyos',
-            picture: '/assets/img/dylan.jpg',
-        },
+            name: 'John Doe',
+            picture: '/assets/img/Avatar.png',
+        }
     ];
 
     constructor() {}

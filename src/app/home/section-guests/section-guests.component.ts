@@ -15,35 +15,23 @@ export class SectionGuestsComponent implements OnInit {
     ngOnInit() {
         this.guests = [
             {
-                image: '/assets/img/special-guests/srdjan-josipovic.png',
-                talk: 'Keynote: Why enterprises embrace Node.js',
-                name: 'Serge Josipovic',
-                company: 'Senior Manager: CVB Software Architecture - Rockwell Automation',
+                image: '/assets/img/Avatar.png',
+                talk: 'Agile is not speed',
+                name: 'John Doe',
+                company: 'Globant',
             },
             {
-                image: '/assets/img/special-guests/adrian-estrada.png',
-                talk: 'Detangling multithreading in Node.js',
-                name: 'Adrian Estrada',
-                company: 'NodeSource',
+                image: '/assets/img/Avatar.png',
+                talk: 'Agile is not speed',
+                name: 'John Doe',
+                company: 'Globant',
             },
             {
-                image: '/assets/img/special-guests/pete-kinstry.png',
-                talk: 'Node projects at scale',
-                name: 'Peter Mc Kinstry',
-                company: 'Technical Director - Globant',
-            },
-            {
-                image: '/assets/img/special-guests/rob-howard.png',
-                talk: 'Node projects at scale',
-                name: 'Rob Howard',
-                company: 'Technical Director - Globant',
-            },
-            {
-                image: '/assets/img/special-guests/kevin-fonner.png',
-                talk: 'Controlling the world with Node',
-                name: 'Kevin Fonner',
-                company: 'Software Engineer - Rockwell Automation',
-            },
+                image: '/assets/img/Avatar.png',
+                talk: 'Agile is not speed',
+                name: 'John Doe',
+                company: 'Globant',
+            }
         ];
         this.imageIndex = 0;
     }
