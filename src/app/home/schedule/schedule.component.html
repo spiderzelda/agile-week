@@ -1,29 +1,62 @@
-<div class="jw-schedule jw-section">
-    <div class="jw-schedule__header">
-        <i class="material-icons">calendar_today</i>
-        <h2 appLocalize>AGENDA</h2>
+<div class="schedules-container">
+    <div class="jw-schedule jw-section">
+        <div class="jw-schedule__header">
+            <i class="material-icons">calendar_today</i>
+            <h2 appLocalize>AGENDA MEDELLÍN</h2>
+        </div>
+
+        <div class="jw-schedule__tabs">
+            <div role="tablist" aria-label="Agenda">
+                <button
+                    *ngFor="let day of objectKeys(schedule)"
+                    id="{{ day }}"
+                    (click)="selectedDay = day"
+                    role="tab"
+                    attr.aria-controls="{{ day }}-tab"
+                    [attr.aria-selected]="selectedDay === day"
+                >
+                    <span appLocalize>
+                    {{ day.slice(0, 3) }}
+                    </span>
+                    <span class='noMobile' appLocalize>
+                        {{ day.slice(3, day.length) }}
+                    </span>
+                </button>
+            </div>
+            <app-schedule-content
+                [content]="schedule[selectedDay]"
+            ></app-schedule-content>
+        </div>
     </div>
 
-    <div class="jw-schedule__tabs">
-        <div role="tablist" aria-label="Agenda">
-            <button
-                *ngFor="let day of objectKeys(schedule)"
-                id="{{ day }}"
-                (click)="selectedDay = day"
-                role="tab"
-                attr.aria-controls="{{ day }}-tab"
-                [attr.aria-selected]="selectedDay === day"
-            >
-                <span appLocalize>
-                {{ day.slice(0, 3) }}
-                </span>
-                <span class='noMobile' appLocalize>
-                    {{ day.slice(3, day.length) }}
-                </span>
-            </button>
+
+    <div class="jw-schedule jw-section bog">
+        <div class="jw-schedule__header">
+            <i class="material-icons">calendar_today</i>
+            <h2 appLocalize>AGENDA BOGOTÁ</h2>
         </div>
-        <app-schedule-content
-            [content]="schedule[selectedDay]"
-        ></app-schedule-content>
+
+        <div class="jw-schedule__tabs">
+            <div role="tablist" aria-label="Agenda">
+                <button
+                    *ngFor="let day of objectKeys(scheduleBog)"
+                    id="{{ day }}-bog"
+                    (click)="selectedDay = day"
+                    role="tab"
+                    attr.aria-controls="{{ day }}-bog-tab"
+                    [attr.aria-selected]="selectedDay === day"
+                >
+                    <span appLocalize>
+                    {{ day.slice(0, 3) }}
+                    </span>
+                    <span class='noMobile' appLocalize>
+                        {{ day.slice(3, day.length) }}
+                    </span>
+                </button>
+            </div>
+            <app-schedule-content
+                [content]="scheduleBog[selectedDay]"
+            ></app-schedule-content>
+        </div>
     </div>
 </div>

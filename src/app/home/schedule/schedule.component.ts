@@ -7,15 +7,16 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class ScheduleComponent implements OnInit {
     schedule: any = {};
+    scheduleBog: any = {};
     selectedDay = 'miercoles';
     objectKeys = Object.keys;
     constructor() {}
 
     ngOnInit() {
-        this.schedule = {
+        this.schedule =this.scheduleBog = {
             miercoles: {
                 day: 'miercoles',
-                date: '27 de Noviembre',
+                date: 'Miércoles 27 de Noviembre',
                 events: [
                     {
                         type: 'talk',
@@ -50,7 +51,7 @@ export class ScheduleComponent implements OnInit {
             },
             jueves: {
                 day: 'jueves',
-                date: '28 de Noviembre',
+                date: 'Jueves 28 de Noviembre',
                 events: [
                     {
                         type: 'talk',
@@ -85,7 +86,7 @@ export class ScheduleComponent implements OnInit {
             },
             viernes: {
                 day: 'viernes',
-                date: '29 de Noviembre',
+                date: 'Viernes 29 de Noviembre',
                 events: [
                     {
                         type: 'talk',
@@ -126,7 +127,7 @@ export class ScheduleComponent implements OnInit {
             },
             sabado: {
                 day: 'sabado',
-                date: '30 de Noviembre',
+                date: 'Sábado 30 de Noviembre',
                 events: [
                     {
                         type: 'talk',
