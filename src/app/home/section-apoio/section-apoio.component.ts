@@ -8,36 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class SectionApoioComponent implements OnInit {
     public voluntarios = [
         {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
+            name: 'Juanita Ramirez',
+            picture: '/assets/img/Juanita.jpg',
         },
         {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
+            name: 'Sebastian Silva',
+            picture: '/assets/img/sebastian-silva.jpg',
         },
         {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
-        },
-        {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
-        },
-        {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
-        },
-        {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
-        },
-        {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
-        },
-        {
-            name: 'John Doe',
-            picture: '/assets/img/Avatar.png',
+            name: 'Juan Camilo Rodriguez',
+            picture: '/assets/img/juan-camilo-rodriguez.png',
         }
     ];
 
