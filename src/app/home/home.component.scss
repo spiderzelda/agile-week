@@ -1,10 +1,29 @@
 @import '../../scss/imports';
 
 .home-component {
-    .poweredby {
+    .links-section{
         text-align: center;
-        color: #b8b8b8;
-        font-size: 1em;
-        margin: 15px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-position: center center;
+        background-size: cover;
+        padding: 20px 0;
+        .poweredby {
+            display: inline-block;
+            text-align: center;
+            color: #b8b8b8;
+            font-size: 1em;
+            width:45%
+        }
+        .mail-item{
+            text-align: center;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 45%;
+            color: $royal-blue;
+        }
     }
 }
