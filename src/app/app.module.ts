@@ -17,7 +17,7 @@ import {CoreModule} from './core/core.module';
         MaterializeModule,
         CoreModule,
         AppRoutingModule
-    ],
+        ],
     providers: [],
     bootstrap: [AppComponent]
 })

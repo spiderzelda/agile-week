@@ -1,0 +1,64 @@
+<div>
+    <div class="jw-faqs__header">
+        <i class="material-icons">contact_support</i>
+        <h2 appLocalize>FAQS</h2>
+    </div>
+    <div class="jw-faqs__content">
+        <div>
+            <mat-accordion>
+
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title class="expansion-panel-header">
+                            ¿LOS EVENTOS DEL QUALITY SUMMIT SON GRATUITOS?
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                <p>Sí, puedes asistir a todas las charlas y actividades completamente gratis.</p>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            ¿EL CUPO ES LIMITADO?
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                <p>Sí, el espacio es limitado. Inscribete para reservar tu cupo.</p>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            ¿CUÁL ES EL HORARIO DEL EVENTO?
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                <p>Bogota: Mi-S 5:30 pm - 7:00 pm Sab 8:00 am - 12:30 pm</p>
+                <p>Medellín: Mi-S 5:30 pm - 7:00 pm Sab 8:00 am - 12:30 pm</p>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            ¿QUÉ TENGO QUE LLEVAR A LAS CHARLAS Y/O WORKSHOPS?
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                <p>Las charlas durante la semana son demostrativas e inspiradoras por lo que no necesitas un computador. Sin embargo, los workshops requieren que lleves tu computador con alguna configuración particular que podrás consultar en la información de la respectiva sesión.</p>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                                NO TRABAJO EN GLOBANT ¿PUEDO ASISTIR?
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                <p>El evento es totalment abierto al púbico, solo necesitas registrarte.</p>
+                </mat-expansion-panel>
+
+            </mat-accordion>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+@import '../../../scss/imports';
+
+.jw-faqs {
+    &__header {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-position: center center;
+        background-size: cover;
+        font-family: $grace;
+        text-transform: uppercase;
+        padding: 20px 0;
+        & i{
+            margin:0 10px;
+            font-size: 50px;
+            @media screen and (max-width: 500px) {
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width: 730px) {
+            height: 100px;
+            flex-direction: row;
+            padding: 0 26px;
+            justify-content: center;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.1;
+            @media screen and (max-width: 730px) {
+                font-size: 24px;
+                padding-left: 15px;
+            }
+        }
+    }
+    &__content{
+        p{
+            font-size: 18px;
+            @media screen and (max-width: 724px) {
+                font-size: 16px;
+            }
+        }
+        mat-expansion-panel{
+            color:$royal-blue;
+        }
+
+        mat-panel-title{
+            font-family: $grace;
+            font-size: 22px;
+            color:$royal-blue;
+            font-weight: 600;
+            @media screen and (max-width: 600px) {
+                font-size: 16px;
+            }
+        }
+        margin: 20px 10px;
+    }
+}
+
+.jw-faqs__header{
+    background: $kiwi;
+    color:white;
+}

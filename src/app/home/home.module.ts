@@ -19,11 +19,21 @@ import { ScheduleContentComponent } from "./schedule/schedule-content/schedule-c
 import { ScheduleEventComponent } from "./schedule/schedule-event/schedule-event.component";
 import { SectionGuestsComponent } from "./section-guests/section-guests.component";
 import { CallForProposalsComponent } from "./section-call-for-proposals/call-for-proposals.component";
+import { SectionFaqsComponent} from "./section-faqs/section-faqs.component";
 
 import { L10nDirective } from "../directives/l10n/l10n.directive";
+import {MatExpansionModule} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 @NgModule({
-    imports: [CommonModule, SharedModule, HomeRoutingModule],
+    imports: [
+        CommonModule,
+        SharedModule,
+        HomeRoutingModule,
+        MatExpansionModule,
+        BrowserAnimationsModule
+    ],
     exports: [L10nDirective],
     declarations: [
         L10nDirective,
@@ -43,7 +53,8 @@ import { L10nDirective } from "../directives/l10n/l10n.directive";
         SectionMapaComponent,
         SectionApoioComponent,
         SectionMatrizComponent,
-        SectionGuestsComponent
+        SectionGuestsComponent,
+        SectionFaqsComponent
     ]
 })
 export class HomeModule {}
