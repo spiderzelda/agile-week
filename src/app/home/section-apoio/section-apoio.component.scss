@@ -1,6 +1,6 @@
 @import '../../../scss/imports';
 
-.jw-sponsor, .jw-communities, .jw-volunteers {
+.jw-sponsor, .jw-communities, .jw-volunteers, .jw-evaluators{
     &__header {
         text-align: center;
         display: flex;
@@ -49,6 +49,10 @@
 
 .jw-volunteers__header{
     color:$kiwi;
+}
+
+.jw-evaluators__header{
+    color:$royal-blue;
 }
 
 .globant-logo {

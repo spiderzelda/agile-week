@@ -86,4 +86,26 @@
             </div>
         </div>
     </div>
+
+    <div class="">
+        <div class="jw-evaluators__header">
+            <i class="material-icons">check_circle</i>
+            <h2 appLocalize>Evaluadores</h2>
+        </div>
+        <div class="section-content">
+            <div class="jw-volunteers">
+                <picture class="jw-volunteer" *ngFor="let eval of evaluadores">
+                    <img
+                        class="jw-volunteer__photo"
+                        src="{{ eval.picture }}"
+                        alt="Foto de {{ eval.name }}"
+                    />
+                    <span class="jw-volunteer__name">
+                        {{ eval.name }}
+                    </span>
+                </picture>
+            </div>
+        </div>
+    </div>
+
 </div>

@@ -80,6 +80,13 @@ export class SectionApoioComponent implements OnInit {
             picture: '/assets/img/oscar-chavarria.JPG',
         },
         {
+            name: 'Vanessa Castrillón',
+            picture: '/assets/img/vanessa-castrillon.png',
+        }
+    ];
+
+    public evaluadores = [
+        {
             name: 'César Romero',
             picture: '/assets/img/cesar_romero.png',
         },
