@@ -15,22 +15,22 @@ export class SectionGuestsComponent implements OnInit {
     ngOnInit() {
         this.guests = [
             {
-                image: '/assets/img/Avatar.png',
-                talk: 'Agile is not speed',
-                name: 'John Doe',
-                company: 'Globant',
+                image: '/assets/img/deshy-gasca.jpg',
+                talk: 'El Reto - Vegetariano... y el agilismo?',
+                name: 'Deshy Gasca',
+                company: 'Delivery Director, Co-partner Agile Delivery / Globant',
             },
             {
-                image: '/assets/img/Avatar.png',
-                talk: 'Agile is not speed',
-                name: 'John Doe',
-                company: 'Globant',
+                image: '/assets/img/special-guests/Jorge_Hernan_Abad_Londono.jpg',
+                talk: 'Todo lo que habías querido saber sobre Historias de Usuario y no te habías atrevido a preguntar',
+                name: 'Jorge Hernan Abad',
+                company: 'Regional Agile Coach, Tata Consultancy Services',
             },
             {
-                image: '/assets/img/Avatar.png',
-                talk: 'Agile is not speed',
-                name: 'John Doe',
-                company: 'Globant',
+                image: '/assets/img/special-guests/Sergio_Andres_Riveros_Gonzalez.jpg',
+                talk: 'SAFe: ¿Moda o necesidad?',
+                name: 'Sergio Riveros',
+                company: 'Senior Test Automation Engineer at Globant, Founder of the SergioARiveros project',
             }
         ];
         this.imageIndex = 0;

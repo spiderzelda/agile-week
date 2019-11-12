@@ -40,10 +40,6 @@ export class SectionApoioComponent implements OnInit {
             picture: '/assets/img/claudia-huertas.jpg',
         },
         {
-            name: 'Deshy Gasca',
-            picture: '/assets/img/deshy-gasca.jpg',
-        },
-        {
             name: 'Didier Valencia',
             picture: '/assets/img/didier-valencia.jpg',
         },

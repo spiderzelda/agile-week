@@ -72,7 +72,6 @@
       flex: 3;
       display: flex;
       flex-direction: column;
-      height: 72%;
       align-items: flex-start;
       color: white;
 
@@ -88,8 +87,10 @@
     }
   }
   & .person-avatar {
-    width: 23.6em;
-    height: 26.6em;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
 
 
