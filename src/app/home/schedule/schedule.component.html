@@ -5,7 +5,150 @@
             <h2 appLocalize>AGENDA MEDELLÍN</h2>
         </div>
 
-        <div class="jw-schedule__tabs">
+        <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>
+                  <span class="day">27</span>
+                  <span class="long">Miércoles</span>
+                  <span class="short">Mie</span>
+                </th>
+                <th>
+                  <span class="day">28</span>
+                  <span class="long">Jueves</span>
+                  <span class="short">Jue</span>
+                </th>
+                <th>
+                  <span class="day">29</span>
+                  <span class="long">Viernes</span>
+                  <span class="short">Vie</span>
+                </th>
+                <th></th>
+                <th>
+                  <span class="day">30</span>
+                  <span class="long">Sábado</span>
+                  <span class="short">Sab</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="register">
+                <td class="hour" rowspan="1"><span>5:00PM</span></td>
+                <td>Registro al evento</td>
+                <td>Registro al evento</td>
+                <td>Registro al evento</td>
+                <td class="hour" rowspan="1"><span>8:00AM</span></td>
+                <td>Registro al evento</td>
+              </tr>
+              <tr>
+                <td class="hour" rowspan="1"><span>5:30PM</span></td>
+                <td><span class="title">Hice mi casa con Scrum, La agilidad de las otras cosas.</span>
+                    <span class="speaker">Speaker: Jeid Vásquez</span>
+                </td>
+                <td><span class="title">
+                        Diseño de Equipos con visión E2E
+                    </span>
+                    <span class="speaker">
+                        Speaker: Carlos Andrés Serrano
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                            Game of Thrones Leadership
+                    </span>
+                    <span class="speaker">
+                        Speaker:  Juan José Molina
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>8:30AM</span></td>
+                <td>
+                    <span class="title">
+                        Workshop B: Experimenta un flujo de trabajo, la colaboración y el aprendizaje, como bases de la agilidad jugando
+                    </span>
+                    <span class="speaker">Trainer: Cristian Bermudez y Juan David Barrera</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour" rowspan="1"><span>5:50PM</span></td>
+                <td>
+                    <span class="title">Discovery Kanban</span>
+                    <span class="speaker">Speaker: Juan José Muñoz</span>
+                </td>
+                <td>
+                    <span class="title">
+                        Hagamos una retrospectiva... ¿distribuida? del dicho al hecho
+                    </span>
+                    <span class="speaker">
+                        Speakers: Leidy Gomez - Juan Camilo Rodriguez
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                        Agilismo, pero explicado por un desarrollador 🤘
+                    </span>
+                    <span class="speaker">
+                        Speaker: Paula Mazo
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>10:30AM</span></td>
+                <td class="speaker">Break</td>
+              </tr>
+              <tr>
+                <td class="hour" rowspan="1"><span>6:10PM</span></td>
+                <td class="speaker">Break</td>
+                <td class="speaker">Break</td>
+                <td class="speaker">Break</td>
+                <td class="hour" rowspan="1"><span>10:45AM</span></td>
+                <td>
+                        <span class="title">
+                        Workshop A: Ponle Color a tu Agilidad
+                    </span>
+                    <span class="speaker">
+                        Trainer: Rose Restrepo
+                    </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour" rowspan="1"><span>6:30PM</span></td>
+                <td>
+                    <span class="title">
+                    El Reto - Vegetariano... y el agilismo?.
+                    </span>
+                    <span class="speaker">
+                        Speaker: Deshy Gasca
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                        Todo lo que habias querido saber sobre Historias de Usuario y no te habías atrevido a preguntar
+                    </span>
+                    <span class="speaker">
+                        Speaker: Jorge Hernan Abad
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                        SAFe: ¿Moda o necesidad?
+                    </span>
+                    <span class="speaker">
+                        Speaker: Sergio Riveros
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>12:00M</span></td>
+                <td class="speaker">Clausura</td>
+              </tr>
+              <tr>
+                <td class="hour" rowspan="1"><span>7:30PM</span></td>
+                <td class="speaker">Cierre</td>
+                <td class="speaker">Cierre</td>
+                <td class="speaker">Cierre</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        <!-- <div class="jw-schedule__tabs">
             <div role="tablist" aria-label="Agenda">
                 <button
                     *ngFor="let day of objectKeys(schedule)"
@@ -26,8 +169,10 @@
             <app-schedule-content
                 [content]="schedule[selectedDay]"
             ></app-schedule-content>
-        </div>
+        </div> -->
     </div>
+
+
 
 
     <div class="jw-schedule jw-section bog">
@@ -36,7 +181,146 @@
             <h2 appLocalize>AGENDA BOGOTÁ</h2>
         </div>
 
-        <div class="jw-schedule__tabs">
+        <table>
+            <thead>
+                <tr>
+                <th></th>
+                <th>
+                    <span class="day">27</span>
+                    <span class="long">Miércoles</span>
+                    <span class="short">Mie</span>
+                </th>
+                <th>
+                    <span class="day">28</span>
+                    <span class="long">Jueves</span>
+                    <span class="short">Jue</span>
+                </th>
+                <th>
+                    <span class="day">29</span>
+                    <span class="long">Viernes</span>
+                    <span class="short">Vie</span>
+                </th>
+                <th></th>
+                <th>
+                    <span class="day">30</span>
+                    <span class="long">Sábado</span>
+                    <span class="short">Sab</span>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="register">
+                <td class="hour" rowspan="1"><span>5:00PM</span></td>
+                <td>Registro al evento</td>
+                <td>Registro al evento</td>
+                <td>Registro al evento</td>
+                <td class="hour" rowspan="1"><span>8:00AM</span></td>
+                <td>Registro al evento</td>
+                </tr>
+                <tr>
+                <td class="hour" rowspan="1"><span>5:30PM</span></td>
+                <td><span class="title">Modern Agiles / Heart of Agile</span>
+                    <span class="speaker">Speaker: Gabriel Martinez</span>
+                </td>
+                <td rowspan="2"><span class="title">
+                        De dinosaurio a liebre, una reconfiguracion del mindset
+                    </span>
+                    <span class="speaker">
+                        Speaker: Andres Rodriguez Rubio
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                            BDD & TDD del dicho al hecho!
+                    </span>
+                    <span class="speaker">
+                        Speaker:  Gustavo Peña - Luz Rozo
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>8:30AM</span></td>
+                <td>
+                    <span class="title">
+                        Workshop A: Diseño de Propuesta de Valor
+                    </span>
+                    <span class="speaker">Trainer: Luis Alveart</span>
+                    <span class="title">
+                            Workshop B: SAFe Kinder: Scaled Agile Framework
+                        </span>
+                        <span class="speaker">Trainer: Mario Monsalve - Sonia Luna</span>
+                </td>
+                </tr>
+                <tr>
+                <td class="hour" rowspan="1"><span>5:50PM</span></td>
+                <td>
+                    <span class="title">Scrum Best Practices</span>
+                    <span class="speaker">Speaker: Ricardo Alonso</span>
+                </td>
+                <td>
+                    <span class="title">
+                            Creación de productos increibles y con alta calidad
+                    </span>
+                    <span class="speaker">
+                        Speaker: Luis Miguel Gonzalez
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>10:30AM</span></td>
+                <td class="speaker">Break</td>
+                </tr>
+                <tr>
+                <td class="hour" rowspan="1"><span>6:10PM</span></td>
+                <td class="speaker">Break</td>
+                <td class="speaker">Break</td>
+                <td class="speaker">Break</td>
+                <td class="hour" rowspan="1"><span>10:45AM</span></td>
+                <td>
+                    <span class="title">
+                        Workshop C: Scrum a escala con lego + los simpsons
+                    </span>
+                    <span class="speaker">
+                        Trainer: Ximena Higuera
+                    </span>
+                </td>
+                </tr>
+                <tr>
+                <td class="hour" rowspan="1"><span>6:30PM</span></td>
+                <td>
+                    <span class="title">
+                        The Agile Coaching competency framework
+                    </span>
+                    <span class="speaker">
+                        Speaker: Camilo Velasquez
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                        Deuda Psicologica
+                    </span>
+                    <span class="speaker">
+                        Speaker: Andrés Prieto
+                    </span>
+                </td>
+                <td>
+                    <span class="title">
+                            Abrimos debate: ¿Involucrar o no al usuario final en los desarrollos agile?
+                    </span>
+                    <span class="speaker">
+                        Speaker: Diana Lucia Acosta
+                    </span>
+                </td>
+                <td class="hour" rowspan="1"><span>12:00M</span></td>
+                <td class="speaker">Clausura</td>
+                </tr>
+                <tr>
+                <td class="hour" rowspan="1"><span>7:30PM</span></td>
+                <td class="speaker">Cierre</td>
+                <td class="speaker">Cierre</td>
+                <td class="speaker">Cierre</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+         <!--<div class="jw-schedule__tabs">
             <div role="tablist" aria-label="Agenda">
                 <button
                     *ngFor="let day of objectKeys(scheduleBog)"
@@ -57,6 +341,6 @@
             <app-schedule-content
                 [content]="scheduleBog[selectedDay]"
             ></app-schedule-content>
-        </div>
+        </div>-->
     </div>
 </div>
