@@ -105,6 +105,22 @@ export class SectionApoioComponent implements OnInit {
         {
             name: 'Sebastián Gomez',
             picture: '/assets/img/sebastian_gomez.jpg',
+        },
+        {
+            name: 'Federico Cayrol',
+            picture: '/assets/img/federico-cayrol.jpg',
+        },
+        {
+            name: 'Ignacio Peña',
+            picture: '/assets/img/ignacio-pena.jpg',
+        },
+        {
+            name: 'Lorena Guatibonza',
+            picture: '/assets/img/lorena-guatibonza.png',
+        },
+        {
+            name: 'Mauro Pérez',
+            picture: '/assets/img/mauro-perez.jpeg',
         }
     ];
 

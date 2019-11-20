@@ -187,10 +187,14 @@ table {
   table tbody .title{
     font-size: 18px;
     font-weight: 400;
-    display: inline-block;
+    display: block;
   }
   table tbody .speaker{
     color: $clear-blue;
+  }
+
+  table tbody .main-talk{
+    font-weight: 600;
   }
   table tbody tr:nth-child(odd) {
     background:white;

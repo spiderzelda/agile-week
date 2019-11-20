@@ -31,9 +31,35 @@ export class SectionGuestsComponent implements OnInit {
                 talk: 'SAFe: ¿Moda o necesidad?',
                 name: 'Sergio Riveros',
                 company: 'Senior Test Automation Engineer at Globant, Founder of the SergioARiveros project',
+            },
+            {
+                image: '/assets/img/special-guests/andres-rodriguez.jpg',
+                talk: 'De dinosaurio a liebre, una reconfiguracion del mindset',
+                name: 'Andres Rodriguez Rubio',
+                company: 'Scrum Master at Aval Digital Labs',
+            },
+            {
+                image: '/assets/img/special-guests/diana-lucia-acosta.jpg',
+                talk: 'Abrimos debate: ¿Involucrar o no al usuario final en los desarrollos agile?',
+                name: 'Diana Lucía Acosta',
+                company: 'SR Adv. Customer Experience Analyst at Globant',
+            },
+            {
+                image: '/assets/img/special-guests/camilo-velasquez.jpg',
+                talk: 'The Agile Coaching competency framework',
+                name: 'Camilo Velasquez',
+                company: 'Agile Coach and Trainer',
+            },
+            {
+                image: '/assets/img/special-guests/julian-andres-prieto.jpg',
+                talk: 'Deuda Psicologica',
+                name: 'Andrés Prieto',
+                company: 'Facilitador de agilidad organizacional',
             }
+
         ];
         this.imageIndex = 0;
+        setInterval(()=> {this.modifyImageIndex(1)}, 8000);
     }
 
     public modifyImageIndex(digit: number): void {
