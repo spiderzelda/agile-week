@@ -20,12 +20,12 @@ export class SpeakersComponent implements OnInit {
             {
                 name: 'Leidy Gómez',
                 picture: '../../../../assets/img/speakers/leidy-gomez.jpg',
-                bio: `Ingeniera Informática certificada en Agile Testing, Testing Level Foundation ISTQB y Scrum Master Certified. Me gusta pasar tiempo con mi familia, bailar y ver Formula 1`,
+                bio: `Ingeniera Informática certificada en Agile Testing, Testing Level Foundation ISTQB y Scrum Master Certified. Me gusta pasar tiempo con mi familia, bailar y ver Fórmula 1`,
             },
             {
                 name: 'Gustavo Peña',
                 picture: '../../../../assets/img/speakers/gustavo-pena.jpg',
-                bio: `Business Analyst, MSc en Ingeniería de la Información.  CSM Certificado. Me gusta viajar a festivales de música y conocer el mundo. Me encantan los perros, el cine y hacer cocteles.`,
+                bio: `Business Analyst, MSc en Ingeniería de la Información.  CSM Certificado. Me gusta viajar a festivales de música y conocer el mundo. Me encantan los perros, el cine y hacer cócteles.`,
             },
             {
                 name: 'Luz Rozo',
@@ -43,10 +43,9 @@ export class SpeakersComponent implements OnInit {
                 bio: `Scrum Master y Agilista apasionado con 4 años de experiencia en proyectos tipo banca, seguros, mercado eléctrico y comercio. Aplicación de Agilismo con Scrum, Scrumban, SAFe y Kanban.`,
             },
             {
-                name: 'Paula Mazo',
-                picture: '../../../../assets/img/speakers/paula-mazo.jpg',
-                bio: `Conocida como "Mazo" desde el colegio. Ha trabajado en las áreas de Infraestructura, DevOps y en los últimos dos años en desarrollo .
-                Web UI Developer en Globant, amante de Javascript y el clean code... Si le queda tiempo en el sprint.`,
+                name: 'Edwin Güiza',
+                picture: '../../../../assets/img/speakers/edwin-guiza.jpg',
+                bio: `Ingeniero de Sistemas, MSc. en Ingeniería Industrial, Certified Scrum Master, SAFe 4 Agilist, PMP, Agilista. Más de 12 años de experiencia en múltiples industrias y proyectos a nivel internacional. Me encanta viajar, bailar y tocar guitarra.`,
             },
             {
                 name: 'Juan José Muñoz',
@@ -81,7 +80,7 @@ export class SpeakersComponent implements OnInit {
             {
                 name: 'Sonia Viviana Luna',
                 picture: '../../../../assets/img/speakers/sonia-luna.jpg',
-                bio: `Business Analyst, Ingeniería de Sistemas.Especialista en Project Management. CSM Certificada. SAFe practitioner certified. Me gusta ir a conciertos y viajar.`,
+                bio: `Business Analyst, Ingeniería de Sistemas. Especialista en Project Management. CSM Certificada. SAFe practitioner certified. Me gusta ir a conciertos y viajar.`,
             },
             {
                 name: 'Claudia Toscano',
@@ -89,7 +88,7 @@ export class SpeakersComponent implements OnInit {
                 bio: `5 años como mamá, 5 años como Agilista, 5 años de ver el mundo laboral como un lugar que necesita evolucionar y que podemos impactar positivamente si nos mantenemos en guardia`,
             },
             {
-                name: 'Diana Jimenez',
+                name: 'Diana Jiménez',
                 picture: '../../../../assets/img/speakers/diana-jimenez.jpg',
                 bio: `Ingeniera de sistemas con especialización en gerencia de proyectos. Vibro con la agilidad y la posibilidad de apoyar a otras personas a encontrar ese ritmo y sincronía que los lleve a lograr grandes resultados.`,
             },
@@ -99,9 +98,9 @@ export class SpeakersComponent implements OnInit {
                 bio: `Llevo 5 años incursionando en la agilidad tanto dentro de la organización como en las comunidades. Soy un apasionado por lo que hago, pero a su vez crítico y con ganas de mejorar cada día.`,
             },
             {
-                name: 'Rose Restrepo',
-                picture: '../../../../assets/img/speakers/rose-restrepo.jpg',
-                bio: `Agile Coach, Trainer and Change Agent | EPM | Chaos Monkey`,
+                name: 'Juan Fernando Gaviria',
+                picture: '../../../../assets/img/juan-gaviria.jpg',
+                bio: `3 años como Agilista en Globant. Es una persona dinámica, con experiencia en la creación y transformación de equipos de alto rendimiento. Juan se enfoca más en el ser que en el hacer, haciendo que el hacer sea una consecuencia del ser.`,
             },
             {
                 name: 'Juan David Barrera',

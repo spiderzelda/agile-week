@@ -23,7 +23,7 @@ export class SectionGuestsComponent implements OnInit {
             {
                 image: '/assets/img/special-guests/Jorge_Hernan_Abad_Londono.jpg',
                 talk: 'Todo lo que habías querido saber sobre Historias de Usuario y no te habías atrevido a preguntar',
-                name: 'Jorge Hernan Abad',
+                name: 'Jorge Hernán Abad',
                 company: 'Regional Agile Coach, Tata Consultancy Services',
             },
             {
@@ -34,8 +34,8 @@ export class SectionGuestsComponent implements OnInit {
             },
             {
                 image: '/assets/img/special-guests/andres-rodriguez.jpg',
-                talk: 'De dinosaurio a liebre, una reconfiguracion del mindset',
-                name: 'Andres Rodriguez Rubio',
+                talk: 'De dinosaurio a liebre, una reconfiguración del mindset',
+                name: 'Andrés Rodríguez Rubio',
                 company: 'Scrum Master at Aval Digital Labs',
             },
             {
@@ -47,12 +47,12 @@ export class SectionGuestsComponent implements OnInit {
             {
                 image: '/assets/img/special-guests/camilo-velasquez.jpg',
                 talk: 'The Agile Coaching competency framework',
-                name: 'Camilo Velasquez',
+                name: 'Camilo Velásquez',
                 company: 'Agile Coach and Trainer',
             },
             {
                 image: '/assets/img/special-guests/julian-andres-prieto.jpg',
-                talk: 'Deuda Psicologica',
+                talk: 'Deuda Psicológica',
                 name: 'Andrés Prieto',
                 company: 'Facilitador de agilidad organizacional',
             }

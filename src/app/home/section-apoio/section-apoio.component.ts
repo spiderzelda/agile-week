@@ -28,7 +28,7 @@ export class SectionApoioComponent implements OnInit {
             picture: '/assets/img/camilo-cubaque.png',
         },
         {
-            name: 'Andrés Gonzalez',
+            name: 'Andrés González',
             picture: '/assets/img/andres-gonzalez.jpg',
         },
         {
@@ -78,6 +78,22 @@ export class SectionApoioComponent implements OnInit {
         {
             name: 'Vanessa Castrillón',
             picture: '/assets/img/vanessa-castrillon.png',
+        },
+        {
+            name: 'Juan Gaviria',
+            picture: '/assets/img/juan-gaviria.jpg',
+        },
+        {
+            name: 'Deiny Johana Betancourt',
+            picture: '/assets/img/deiny-betancourt.png',
+        },
+        {
+            name: 'Robert Sánchez',
+            picture: '/assets/img/robert-sanchez.jpg',
+        },
+        {
+            name: 'Juan Carlos Feris',
+            picture: '/assets/img/juan-carlos-feris.jpg',
         }
     ];
 

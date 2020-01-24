@@ -16,7 +16,7 @@ export class ScheduleComponent implements OnInit {
         this.schedule =this.scheduleBog = {
             miercoles: {
                 day: 'miercoles',
-                date: 'Miércoles 27 de Noviembre',
+                date: 'Miércoles 19 de Febrero',
                 events: [
                     {
                         type: 'talk',
@@ -51,7 +51,7 @@ export class ScheduleComponent implements OnInit {
             },
             jueves: {
                 day: 'jueves',
-                date: 'Jueves 28 de Noviembre',
+                date: 'Jueves 20 de Febrero',
                 events: [
                     {
                         type: 'talk',
@@ -86,7 +86,7 @@ export class ScheduleComponent implements OnInit {
             },
             viernes: {
                 day: 'viernes',
-                date: 'Viernes 29 de Noviembre',
+                date: 'Viernes 21 de Febrero',
                 events: [
                     {
                         type: 'talk',
@@ -127,7 +127,7 @@ export class ScheduleComponent implements OnInit {
             },
             sabado: {
                 day: 'sabado',
-                date: 'Sábado 30 de Noviembre',
+                date: 'Sábado 22 de Febrero',
                 events: [
                     {
                         type: 'talk',
