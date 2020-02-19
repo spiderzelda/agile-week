@@ -98,9 +98,14 @@ export class SpeakersComponent implements OnInit {
                 bio: `Llevo 5 años incursionando en la agilidad tanto dentro de la organización como en las comunidades. Soy un apasionado por lo que hago, pero a su vez crítico y con ganas de mejorar cada día.`,
             },
             {
-                name: 'Juan Fernando Gaviria',
-                picture: '../../../../assets/img/juan-gaviria.jpg',
-                bio: `3 años como Agilista en Globant. Es una persona dinámica, con experiencia en la creación y transformación de equipos de alto rendimiento. Juan se enfoca más en el ser que en el hacer, haciendo que el hacer sea una consecuencia del ser.`,
+                name: 'Camilo Cubaque',
+                picture: '../../../../assets/img/camilo-cubaque.png',
+                bio: `Ingeniero Industrial - MAS GIS - Arizona State University. Amante de los aviones y de la buena comida picante.`,
+            },
+            {
+                name: 'Robert Sánchez',
+                picture: '../../../../assets/img/robert-sanchez.jpg',
+                bio: `Ingeniero de Sistemas, egresado de la Univerdad de Medellin, Glober desde Julio 2019, Aficionado a Call Of Duty, los Paseos y al Cine.`,
             },
             {
                 name: 'Juan David Barrera',
